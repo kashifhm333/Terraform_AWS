@@ -1,0 +1,35 @@
+# Local .terraform directories
+.terraform/
+
+# Managed terraform files
+.terraform.lock.h5
+
+# Interim planning and state files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Developer specific credential files
+aws-credentials.json
+*.pem
+
+# Crash log files
+crash.output.log
+
+# Exclude sensitive override files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# IDE and OS specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
