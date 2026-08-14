@@ -1,0 +1,26 @@
+{
+  "user_id": 1001,
+  "username": "alex_coder",
+  "email": "alex@example.com",
+  "is_active": true,
+  "profile": {
+    "first_name": "Alex",
+    "last_name": "Smith",
+    "age": 28,
+    "location": "New York"
+  },
+  "skills": ["Python", "JavaScript", "JSON"],
+  "projects": [
+    {
+      "project_id": "p-1",
+      "title": "Web Dashboard",
+      "completed": false
+    },
+    {
+      "project_id": "p-2",
+      "title": "Data Pipeline",
+      "completed": true
+    }
+  ],
+  "phone_number": null
+}
