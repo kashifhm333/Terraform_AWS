@@ -1,0 +1,6 @@
+1. bucket
+2. block public access 
+3. cloudfront origin access contorl
+4. aws IAM policy document
+5. aws bucket policy
+6. s3 object

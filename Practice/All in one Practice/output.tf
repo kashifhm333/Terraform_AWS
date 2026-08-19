@@ -1,0 +1,7 @@
+output "bucket_names" {
+  value = aws_s3_bucket.example[*].bucket
+}
+output "tags" {
+    value = var.tags.Env
+  
+}
